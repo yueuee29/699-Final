@@ -7,7 +7,7 @@ import requests
 import pandas as pd
 import json
 from pandas.io.json import json_normalize
-#desired_records = 103348
+
 key = 'listings'
 URL = 'http://marketcheck-prod.apigee.net/v2/search/car/recents?api_key=WxOyopqFPORAeROOcf3HBUH7Cc3qNuXk&dealer_id=1080226&last_seen_range=20200301-20200601&rows=50'
 
